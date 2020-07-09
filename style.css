@@ -77,6 +77,11 @@ img {
 
 
 @media screen and (min-width: 420px) {
+    
+    body {
+        padding: 2%;
+    }
+    
     .container .row {
         width: 100%;
         margin: auto;
@@ -85,11 +90,13 @@ img {
     
     #lezioni .row>.left, #lezioni .row>.right {
         margin: auto;
-        font-size: 20px;
+        font-size: 24px;
     }
     
     .grey {
         width: 100%;
+        padding: 2%;
+        margin: auto;
     }
     
     .grey .row {
@@ -104,12 +111,26 @@ img {
         display: contents;
         width: 100vw;
         margin: auto;
-        font-size: 20px;
+        font-size: 24px;
 }
-
+    
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        content: "<br>";
+        display: block;
+        clear: both;
+    }
     
     #steps img {
         margin: auto;
     }
     
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        width: 100%;
+        font-size: 24px;
+    }
 } 
+
